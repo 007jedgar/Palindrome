@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Palindrome.h"
 
 @interface ViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel *isPalindromeLabel;
+@property (nonatomic, weak) IBOutlet UITextField *isPalindromeField;
+
 
 
 @end

@@ -13,6 +13,7 @@
 		ABD0A6E11E43A6D8004B661A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD0A6DF1E43A6D8004B661A /* Main.storyboard */; };
 		ABD0A6E31E43A6D8004B661A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD0A6E21E43A6D8004B661A /* Assets.xcassets */; };
 		ABD0A6E61E43A6D8004B661A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD0A6E41E43A6D8004B661A /* LaunchScreen.storyboard */; };
+		ABD0A6F01E43A723004B661A /* Palindrome.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD0A6EF1E43A723004B661A /* Palindrome.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		ABD0A6E21E43A6D8004B661A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABD0A6E51E43A6D8004B661A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABD0A6E71E43A6D8004B661A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD0A6EE1E43A723004B661A /* Palindrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Palindrome.h; sourceTree = "<group>"; };
+		ABD0A6EF1E43A723004B661A /* Palindrome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Palindrome.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		ABD0A6D51E43A6D8004B661A /* Palindrome */ = {
 			isa = PBXGroup;
 			children = (
+				ABD0A6ED1E43A6EF004B661A /* Classes */,
 				ABD0A6D91E43A6D8004B661A /* AppDelegate.h */,
 				ABD0A6DA1E43A6D8004B661A /* AppDelegate.m */,
 				ABD0A6DC1E43A6D8004B661A /* ViewController.h */,
@@ -77,6 +81,15 @@
 				ABD0A6D71E43A6D8004B661A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABD0A6ED1E43A6EF004B661A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ABD0A6EE1E43A723004B661A /* Palindrome.h */,
+				ABD0A6EF1E43A723004B661A /* Palindrome.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			files = (
 				ABD0A6DE1E43A6D8004B661A /* ViewController.m in Sources */,
 				ABD0A6DB1E43A6D8004B661A /* AppDelegate.m in Sources */,
+				ABD0A6F01E43A723004B661A /* Palindrome.m in Sources */,
 				ABD0A6D81E43A6D8004B661A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

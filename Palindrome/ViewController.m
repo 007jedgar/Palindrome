@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Palindrome.h"
 
 @interface ViewController ()
 
@@ -25,5 +26,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+//reports the answer to label
+-(IBAction) getAnswerButton {
+    
+    Palindrome *answer = [[Palindrome alloc]init];
+    NSString *word = self.isPalindromeField.text;
+    self.isPalindromeLabel.text = [NSString stringWithFormat:@"%@", [answer isPalindrome:word]];
+    
+}
 
 @end
